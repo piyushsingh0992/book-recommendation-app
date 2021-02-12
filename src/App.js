@@ -1,7 +1,9 @@
-import React, { useState } from "react";
-import "./styles.css";
 
-export default function App() {
+import React,{useState} from 'react';
+
+import './App.css';
+
+function App() {
   var fiction = [
     "The Lord of the Rings",
     "Harry Potter and the Philosopher's Stone",
@@ -63,7 +65,7 @@ export default function App() {
     }
   }
   return (
-    <div className="App">
+    <div className="app">
       <h1>📚 Goodbooks</h1>
       <p>Checkout my favorite books. Select a genre to get started</p>
       <hr/>
@@ -75,3 +77,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;

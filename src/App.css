@@ -1,0 +1,31 @@
+.app {
+  text-align: center;
+}
+
+.app {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #efefef;
+}
+
+button {
+  margin: 0px 5px 0px 5px;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+li {
+  margin: 10px 0px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
